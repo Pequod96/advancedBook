@@ -1,0 +1,133 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a:link{
+    text-decoration: none;
+    color:rgba(231, 222, 222, 0.925);
+}
+
+a:hover{
+    color: rgb(0, 150, 199);
+}
+
+video {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+    }
+
+
+#center{
+    margin-left:50px;
+    margin-top: 2em;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+#icon-alice{
+    width:150px;
+    height:140px;
+    position:absolute;
+    top:10px;
+    right:100px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Space Grotesk;
+    text-shadow: 5px 5px 5px rgb(0, 119, 182);
+    
+}
+
+#book{
+    margin-top:10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.582);
+    height:40px;
+    font-size: 16px;
+}
+
+#search{
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #1e74f4bd;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        width: 100px;
+        height:40px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left:230px;
+        margin-top:-90px;
+      }
+      
+#search span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+      
+}
+      
+#search span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+      
+}
+      
+#search:hover span {
+    padding-right: 25px;
+
+}
+      
+#search:hover span:after {
+    opacity: 1;
+    right: 0;
+      
+}
+
+
+#center2 {
+    font-size: 26px;
+    font-family:  Space Grotesk ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:30px;
+    padding: 20px 10px 10px 0px;
+}
+
+footer{
+    margin-top:370px;
+    margin-left:550px;
+    height:30px;
+    
+}
+
+#samueletoro{
+    color: rgba(31, 216, 130, 0.753);
+    font-family:Space Grotesk;
+    font-size: 15px;
+}
